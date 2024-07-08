@@ -1,4 +1,12 @@
-# Sdm-lang Sdml
+# SDML Homebrew Tap
+
+![SDML Logo Text](https://raw.githubusercontent.com/sdm-lang/.github/main/profile/horizontal-text.svg)
+
+This repository contains a Homebrew package manager Tap, a collection of formulae for SDML development.
+
+## Formulae
+
+1. `sdml` -- the SDML command-line tool.
 
 ## How do I install these formulae?
 
@@ -13,6 +21,6 @@ tap "sdm-lang/sdml"
 brew "<formula>"
 ```
 
-## Documentation
+## Homebrew Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
