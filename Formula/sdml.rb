@@ -12,7 +12,7 @@ class Sdml < Formula
   depends_on "plantuml" => :recommended
 
   def install
-    system "cargo", "install", *std_cargo_args
+    system "cargo", "install", *std_cargo_args(path: "sdml-cli")
   end
 
   test do
